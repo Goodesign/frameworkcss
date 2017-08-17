@@ -15,6 +15,7 @@
 
 
 */
+
 /* Titulos
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .titulos {
@@ -31,8 +32,8 @@ margin-bottom: 0;
 
 /* Grade
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.coluna,
-.colunas {
+#grade .coluna,
+#grade .colunas {
 	background: #EEE;
 	text-align: center;
 	border-radius: 4px;
@@ -48,7 +49,7 @@ margin-bottom: 0;
     margin-top: 1.5rem;
     margin-bottom: 0;
 }
-.code-examplo-body {
+.code-example-body {
   white-space: pre;
   word-wrap: break-word; }
 .prettyprint {
@@ -59,3 +60,14 @@ margin-bottom: 0;
     -webkit-font-smoothing: antialiased;
 }
 
+
+/* Tipografia
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.font_dica {font-size: 1.2rem;
+color: #999;
+letter-spacing: normal;}
+
+.code-example-tipo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
