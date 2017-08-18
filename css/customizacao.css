@@ -16,42 +16,109 @@
 
 */
 
+
+/* Logo + Objetos
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#logo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.framework {
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: -45px 0 0 345px;
+}
+
+.framework {
+    animation: pulse 8s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        color: #fff
+    }
+    20% {
+        color: #000
+    }
+    40% {
+        color: #fff
+    }
+    60% {
+        color: #000
+    }
+    80% {
+        color: #fff
+    }
+    90% {
+        color: #000
+    }
+    100% {
+        color: #fff
+    }
+}
+
+#objetos {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.objetos {
+    text-align: center;
+}
+#objetos p {
+    font-size: 1.7rem;
+    margin-top: 10px;
+    color: #636363;
+}
+
+
 /* Titulos
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .titulos {
-	text-transform: uppercase;
-	font-size: 1.4rem;
-	letter-spacing: .2rem;
-	font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+    font-weight: 600;
 }
+
 .sessoes {
-	border-top: 1px solid #eee;
-padding: 4rem 0;
-margin-bottom: 0;
+    border-top: 1px solid #eee;
+    padding: 4rem 0;
+    margin-bottom: 0;
 }
+
 
 /* Grade
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 #grade .coluna,
 #grade .colunas {
-	background: #EEE;
-	text-align: center;
-	border-radius: 4px;
-	font-size: 1rem;
-	text-transform: uppercase;
-	height: 30px;
-	line-height: 30px;
-	margin-bottom: .75rem;
-	font-weight: 600;
-	letter-spacing: .1rem;
+    background: #EEE;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: .75rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
 }
+
 .code-example {
     margin-top: 1.5rem;
     margin-bottom: 0;
 }
+
 .code-example-body {
-  white-space: pre;
-  word-wrap: break-word; }
+    white-space: pre;
+    word-wrap: break-word;
+}
+
 .prettyprint {
     background: #fff;
     font-family: 'Source Code Pro', monospace;
@@ -63,9 +130,12 @@ margin-bottom: 0;
 
 /* Tipografia
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.font_dica {font-size: 1.2rem;
-color: #999;
-letter-spacing: normal;}
+
+.font_dica {
+    font-size: 1.2rem;
+    color: #999;
+    letter-spacing: normal;
+}
 
 .code-example-tipo {
     margin-top: 5px;
