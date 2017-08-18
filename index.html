@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon -->
     <link rel="icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="apple-touch-icon" href="img/favicon_apple.png" />
     <!-- CSS link -->
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
@@ -32,23 +32,62 @@
 </head>
 
 <body>
-    <heade>menu</heade>
+
+
+    <header>
+
+
+
+        <div class="container">
+            <div class="oito colunas">
+                <nav class="menu_desktop">
+                    <ul class="menu">
+                        <li class="menu_principal"> <a href="#">Item 0</a></li>
+                        <li class="menu_principal"><a href="#">Item 1</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub</a></li>
+                                <li><a href="#">Sub2</a></li>
+                                <li><a href="#">Sub</a></li>
+                                <li><a href="#">Sub2</a></li>
+                                <li><a href="#">Sub</a></li>
+                                <li><a href="#">Sub2</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_principal"> <a href="#">Item 2</a></li>
+                        <li class="menu_principal"> <a href="#">Item 3</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="quatro colunas">
+                <a style="float: right;" class="button" href="#">Download</a>
+            </div>
+
+        </div>
+    </header>
     <!-- LOGO
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
         <div id="logo">
             <img src="img/logo.svg" alt="Logo" height="133" width="500">
-            <h3 class="framework">Framework</h3>      
-       </div>
-    
+            <h3 class="framework">Framework</h3>
+        </div>
+
         <!-- objetos  ––––––––––––––––––––––––––––––––––––– -->
-       <div  id="objetos">
+        <div id="objetos">
             <div class="linha">
-                <div class="quatro colunas objetos"><i class="fa fa-css3 fa-5x" aria-hidden="true"></i><p>HTML</p></div>
-                <div class="quatro colunas objetos"><i class="fa fa-html5 fa-5x" aria-hidden="true"></i><p>CSS</p></div>
-                <div class="quatro colunas objetos"><i class="fa fa-code fa-5x" aria-hidden="true"></i><p>JS</p></div>
+                <div class="quatro colunas objetos"><i class="fa fa-css3 fa-5x" aria-hidden="true"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="quatro colunas objetos"><i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="quatro colunas objetos"><i class="fa fa-code fa-5x" aria-hidden="true"></i>
+                    <p>JS</p>
+                </div>
             </div>
         </div>
+
+
 
         <!-- Grade ––––––––––––––––––––––––––––––––––––– -->
         <div class="sessoes" id="grade">
@@ -164,12 +203,12 @@
                 </code>
 				</pre>
             </div>
-          
+
         </div>
-          
+
         <!-- Botoes––––––––––––––––––––– -->
 
-        <div  class="sessoes" id="botoes">
+        <div class="sessoes" id="botoes">
             <h6 class="titulos">Botões</h6>
             <a class="button" href="#">Link</a> <button>Botão</button> <input value="botão enviar" type="submit"> <input value="Botão input" type="button"><br>
             <a class="button button-primary" href="#">Link</a> <button class="button-primary">Botão</button> <input class="button-primary" value="botão enviar" type="submit"> <input class="button-primary" value="Botão input" type="button">
@@ -191,93 +230,87 @@
 	
         </code>
 </pre>
-     <!-- Listas––––––––––––––––––––– -->
-<div class="sessoes" id="listas">
-    <h6 class="titulos">Listas</h6>
-    <div class="linha">
-        <div class="quatro colunas">
-            <ul>
-                <li>Item 1</li>
-                <li>
-                    Item 2
+        <!-- Listas––––––––––––––––––––– -->
+        <div class="sessoes" id="listas">
+            <h6 class="titulos">Listas</h6>
+            <div class="linha">
+                <div class="quatro colunas">
                     <ul>
-                        <li>Item 2.1</li>
-                        <li>Item 2.2</li>
+                        <li>Item 1</li>
+                        <li>
+                            Item 2
+                            <ul>
+                                <li>Item 2.1</li>
+                                <li>Item 2.2</li>
+                            </ul>
+                        </li>
+                        <li>Item 3</li>
                     </ul>
-                </li>
-                <li>Item 3</li>
-            </ul>
-        </div>
-        <div class="quatro colunas">
-            <ol>
-                <li>Item 1</li>
-                <li>
-                    Item 2
-                    <ul>
-                        <li>Item 2.1</li>
-                        <li>Item 2.2</li>
-                    </ul>
-                </li>
-                <li>Item 3</li>
-            </ol>
-        </div>
-        <div style="border: 1px solid rgba(0, 0, 0, 0.14);
+                </div>
+                <div class="quatro colunas">
+                    <ol>
+                        <li>Item 1</li>
+                        <li>
+                            Item 2
+                            <ul>
+                                <li>Item 2.1</li>
+                                <li>Item 2.2</li>
+                            </ul>
+                        </li>
+                        <li>Item 3</li>
+                    </ol>
+                </div>
+                <div style="border: 1px solid rgba(0, 0, 0, 0.14);
 padding: 20px;" class="quatro colunas">
-          
-&lt;ul&gt;<br>
-    &lt;li&gt;Item 1&lt;/li&gt;<br>
-    &lt;li&gt;<br>
-    Item 2<br>
-    &l;tul&gt;<br>
-      &lt;li>Item 2.1&lt;/li&gt;<br>
-      &lt;li>Item 2.2&lt;/li&gt;<br>
-    &lt;/ul&gt;<br>
-  &lt;/li&gt;<br>
-  &lt;li>Item 3&lt;/li&gt;<br>
-&lt;/ul&gt;
-	
 
-        </div>  
-        Substitua <code>&lt;ul&gt;</code> por <code>&lt;ol&gt;</code> para adicionar numeração
-    </div>
-        
-    
+                    &lt;ul&gt;<br> &lt;li&gt;Item 1&lt;/li&gt;<br> &lt;li&gt;
+                    <br> Item 2<br> &l;tul&gt;
+                    <br> &lt;li>Item 2.1&lt;/li&gt;<br> &lt;li>Item 2.2&lt;/li&gt;<br> &lt;/ul&gt;
+                    <br> &lt;/li&gt;
+                    <br> &lt;li>Item 3&lt;/li&gt;<br> &lt;/ul&gt;
+
+
+                </div>
+                Substitua <code>&lt;ul&gt;</code> por <code>&lt;ol&gt;</code> para adicionar numeração
+            </div>
+
+
         </div>
-         <!-- Tabelas––––––––––––––––––––– -->
-<div  class="sessoes" id="tabelas">
-    <h6 class="titulos">Tabelas</h6>
-    <table class="u-full-width ">
-  <thead>
-    <tr>
-      <th>Nome</th>
-      <th>Idade</th>
-      <th>Sexo</th>
-      <th>Local</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Oscar Neto</td>
-      <td>36</td>
-      <td>Masculino</td>
-      <td>São Paulo</td>
-    </tr>
-    <tr>
-      <td>Vanessa Mota</td>
-      <td>30</td>
-      <td>Feminino</td>
-      <td>Carapicuíba</td>
-    </tr>
-       <tr>
-      <td>Livia</td>
-      <td>10</td>
-      <td>Feminino</td>
-      <td>Carapicuíba</td>
-    </tr>
-  </tbody>
-</table>    
-</div>
-  <pre style="margin-bottom:40px" class="code-example">
+        <!-- Tabelas––––––––––––––––––––– -->
+        <div class="sessoes" id="tabelas">
+            <h6 class="titulos">Tabelas</h6>
+            <table class="u-full-width ">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Sexo</th>
+                        <th>Local</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Oscar Neto</td>
+                        <td>36</td>
+                        <td>Masculino</td>
+                        <td>São Paulo</td>
+                    </tr>
+                    <tr>
+                        <td>Vanessa Mota</td>
+                        <td>30</td>
+                        <td>Feminino</td>
+                        <td>Carapicuíba</td>
+                    </tr>
+                    <tr>
+                        <td>Livia</td>
+                        <td>10</td>
+                        <td>Feminino</td>
+                        <td>Carapicuíba</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <pre style="margin-bottom:40px" class="code-example">
 	<code class="codigo-example-body prettyprint">
 &lt;table class="u-full-width"&gt;
   &lt;thead&gt;
@@ -297,37 +330,37 @@ padding: 20px;" class="quatro colunas">
   &lt;/tbody&gt;
 &lt;/table&gt;
         </code>
-</pre>  
- 
-         <!-- Formularios––––––––––––––––––––– -->
-<div class="sessoes" id="formularios">
-    <h6 class="titulos">Formulários</h6>
-    <form>
-        <div class="row">
-            <div class="seis colunas">
-                <label for="exampleEmailInput">Email</label>
-                <input class="u-full-width" placeholder="email@email.com" id="exampleEmailInput" type="email">
-            </div>
-            <div class="seis colunas">
-                <label for="exampleRecipientInput">Departamento</label>
-                <select class="u-full-width" id="exampleRecipientInput">
+</pre>
+
+        <!-- Formularios––––––––––––––––––––– -->
+        <div class="sessoes" id="formularios">
+            <h6 class="titulos">Formulários</h6>
+            <form>
+                <div class="row">
+                    <div class="seis colunas">
+                        <label for="exampleEmailInput">Email</label>
+                        <input class="u-full-width" placeholder="email@email.com" id="exampleEmailInput" type="email">
+                    </div>
+                    <div class="seis colunas">
+                        <label for="exampleRecipientInput">Departamento</label>
+                        <select class="u-full-width" id="exampleRecipientInput">
         <option value="Option 1">Administração</option>
         <option value="Option 2">Financeiro</option>
         <option value="Option 3">Suporte</option>
       </select>
-            </div>
-        </div>
-        <label for="exampleMessage">Mensagem</label>
-        <textarea class="u-full-width" id="exampleMessage"></textarea>
-        <label class="example-send-yourself-copy">
+                    </div>
+                </div>
+                <label for="exampleMessage">Mensagem</label>
+                <textarea class="u-full-width" id="exampleMessage"></textarea>
+                <label class="example-send-yourself-copy">
     <input type="checkbox">
     <span class="label-body">Enviar copia.</span>
   </label>
-        <input class="button-primary" value="Enviar" type="submit">
-    </form>
-</div>
+                <input class="button-primary" value="Enviar" type="submit">
+            </form>
+        </div>
 
-<pre class="code-example">
+        <pre class="code-example">
 	<code class="codigo-example-body prettyprint">
 &lt;form&gt;
     &lt;div class="row"&gt;
@@ -358,8 +391,8 @@ padding: 20px;" class="quatro colunas">
     
     </code>
 </pre>
-    
-    
+
+
     </div>
 
 </body>
