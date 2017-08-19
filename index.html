@@ -29,6 +29,9 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <!-- JS link -->
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/meusjs.js"></script>
+
 </head>
 
 <body>
@@ -42,19 +45,20 @@
             <div class="oito colunas">
                 <nav class="menu_desktop">
                     <ul class="menu">
-                        <li class="menu_principal"> <a href="#">Item 0</a></li>
-                        <li class="menu_principal"><a href="#">Item 1</a>
+                        <li class="menu_principal"> <a href="#introducao">Introdução</a></li>
+                        <li class="menu_principal"><a href="#">Códigos</a>
                             <ul class="sub-menu">
                                 <div class="seta-3"></div>
-                                <li><a href="#">Sub</a></li>
-                                <li><a href="#">Sub2</a></li>
-                                <li><a href="#">Sub</a></li>
-                                <li><a href="#">Sub2</a></li>
-                                <li><a href="#">Sub</a></li>
-                                <li><a href="#">Sub2</a></li>
+                                <li><a href="#grade">Grade</a></li>
+                                <li><a href="#tipografia">Tipografia</a></li>
+                                <li><a href="#icones">Ícones</a></li>
+                                <li><a href="#botoes">Botões</a></li>
+                                <li><a href="#listas">Listas</a></li>
+                                <li><a href="#tabelas">Tabelas</a></li>
+                                <li><a href="#formularios">Formulário</a></li>
                             </ul>
                         </li>
-                        <li class="menu_principal"> <a href="#">Item 2</a></li>
+                        <li class="menu_principal"> <a href="#formularios">Item 2</a></li>
                         <li class="menu_principal"> <a href="#">Item 3</a></li>
                     </ul>
                 </nav>
@@ -65,10 +69,11 @@
 
         </div>
     </header>
+    
     <!-- LOGO
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
-        <div id="logo">
+        <div id="introducao">
             <img src="img/logo.svg" alt="Logo" height="133" width="500">
             <h3 class="framework">Framework</h3>
         </div>
@@ -92,6 +97,8 @@
         </div>
 
 
+        
+        
 
         <!-- Grade ––––––––––––––––––––––––––––––––––––– -->
         <div class="sessoes" id="grade">
@@ -197,7 +204,7 @@
                 Utilize pesos diferentes com <code>font-weight:</code><span style="font-weight:300">300</span>, <span style="font-weight:400">400</span> ou <span style="font-weight:600">600</span>
             </div>
             <div class="metade coluna">
-                <p>A fonte escolhida foi <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank"><u>'Open Sans', sans-serif</u></a> devido sua legibilidade e seu tempo de carregamento, essa foi adicionada a partir do Google Fonts e pode ser alterada a qualquer momento no css </p>
+                <p>A fonte escolhida foi <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">'Open Sans', sans-serif</a> devido sua legibilidade e seu tempo de carregamento, essa foi adicionada a partir do Google Fonts e pode ser alterada a qualquer momento no css </p>
                 <p><b>Tipos:</b> </p>
                 <pre class="code-example-tipo">
 <code class="codigo-example-body prettyprint"><strong>Negrito <span class="font_dica">&lt;b&gt;Negrito&lt;/b&gt;</span></strong>
@@ -372,7 +379,7 @@ padding: 20px;" class="quatro colunas">
 </pre>
 
         <!-- Formularios––––––––––––––––––––– -->
-        <div class="sessoes" id="formularios">
+        <div id="formularios" class="sessoes"  >
             <h6 class="titulos">Formulários</h6>
             <form>
                 <div class="row">
