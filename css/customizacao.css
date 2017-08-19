@@ -80,7 +80,10 @@
     margin-top: 10px;
     color: #636363;
 }
-
+#objetos .seis p{font-size: 1.2rem;
+text-align: justify;
+}
+#objetos .seis a {text-decoration-style: dotted; color:#636363}
 
 /* Menu
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -105,7 +108,7 @@ nav ul li a {
 }
 
 .menu_principal {
-    padding: 2px 60px 25px 0;
+    padding: 2px 60px 15px 0;
 }
 
 .menu_principal {}
@@ -212,12 +215,12 @@ nav ul li a {
     background: #fff;
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2rem;
-    padding: 2.5rem 3rem;
+    padding: 2.5rem 3rem 4rem 2.5rem;
     -webkit-font-smoothing: antialiased;
 }
 
 
-/* Tipografia
+/* Tipografia + Icones
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .font_dica {
@@ -230,3 +233,7 @@ nav ul li a {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+#icones .fa {margin-right: 6px}
+#icones .linha {margin-top:30px}
+#icones a {text-decoration-style: dotted; color:#636363}
