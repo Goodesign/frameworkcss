@@ -23,6 +23,7 @@
 #introducao {
     text-align: center;
     padding: 100px 0 30px 0;
+    display:none /* desabilitar depos*/
 }
 
 .framework {
@@ -244,4 +245,14 @@ nav ul li a {
 #icones .linha {margin-top:30px}
 #icones a {text-decoration-style: dotted; color:#636363}
 
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {padding: 10px}
+
+footer p {
+    text-align: center;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
 
