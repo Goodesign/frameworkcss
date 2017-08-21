@@ -30,8 +30,21 @@
     <!-- JS link -->
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/meusjs.js"></script>
+<script>
+  var nice = false;
 
+  $(function() {
+    nice = $("html").niceScroll();
+  });
+  
+  var obj = window;
+  
+  console.log(obj.length);
+  console.log("selector" in obj);
+  
+</script>
 </head>
 
 <body>
