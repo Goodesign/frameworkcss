@@ -20,6 +20,7 @@
     <link rel="apple-touch-icon" href="img/favicon_apple.png" />
     <!-- CSS link -->
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/animate.css">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/goodesign.css">
     <link rel="stylesheet" href="css/customizacao.css">
@@ -27,33 +28,18 @@
     <!-- Fontes externas -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-    <!-- JS link -->
+    <!-- JS links -->
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
+        <!-- Nice scroll -->    
     <script src="js/jquery.nicescroll.min.js"></script>
+    <script>$(function(){nice=$("html").niceScroll()});var obj=window;console.log(obj.length);console.log("selector" in obj);</script>
+        <!-- Meu js -->
     <script src="js/meusjs.js"></script>
-<script>
-  var nice = false;
-
-  $(function() {
-    nice = $("html").niceScroll();
-  });
-  
-  var obj = window;
-  
-  console.log(obj.length);
-  console.log("selector" in obj);
-  
-</script>
-</head>
+ </head>
 
 <body>
-
-
     <header>
-
-
-
         <div class="container">
             <div class="oito colunas">
                 <nav class="menu_desktop">
@@ -61,7 +47,7 @@
                         <li class="menu_principal"> <a href="#introducao">Introdução</a></li>
                         <li class="menu_principal"><a href="#">Códigos</a>
                             <ul class="sub-menu">
-                                <div class="seta-3"></div>
+                                <li><a href="#grade">Grade</a></li>
                                 <li><a href="#grade">Grade</a></li>
                                 <li><a href="#tipografia">Tipografia</a></li>
                                 <li><a href="#icones">Ícones</a></li>
@@ -73,7 +59,6 @@
                         </li>
                         <li class="menu_principal"> <a href="#formularios">Ferramentas</a>
                         <ul class="sub-menu">
-                                <div class="seta-3"></div>
                                 <li><a href="http://ferramentas.goodesign.com.br/cores/" target="_blank">Seletor cores Html</a></li>
                                 <li><a href="http://ferramentas.goodesign.com.br/editorw3/" target="_blank">Editor Html (w3)</a></li>
                                 <li><a href="http://ferramentas.goodesign.com.br/ckeditor/" target="_blank">Editor Html (ckeditor)</a></li>
@@ -82,12 +67,9 @@
                                 <li><a href="http://ferramentas.goodesign.com.br/notas/" target="_blank">Bloco de Notas</a></li>
                                 <li><a href="http://ferramentas.goodesign.com.br/letras/" target="_blank">Altura Letras</a></li>
                                 <li><a href="http://ferramentas.goodesign.com.br/replace/" target="_blank">Editor de Texto</a></li>
-                                <li><a href="http://ferramentas.goodesign.com.br/replace/" target="_blank">Editor de Email marketing</a></li>
+                                <li><a href="http://ferramentas.goodesign.com.br/email/" target="_blank">Editor de Email marketing</a></li>
                                 <li><a href="http://ferramentas.goodesign.com.br/img/" target="_blank">Compartilhar Imagens</a></li>
-                            
-                               
-                                <li><a href="#formularios">Formulário</a>
-                            </ul>
+                         </ul>
                         </li>
                         
                         
@@ -112,7 +94,7 @@
             <h3 class="framework">Framework</h3>
         </div>
 
-        <!-- OBJETOS  ––––––––––––––––––––––––––––––––––––– -->
+     <!-- OBJETOS  ––––––––––––––––––––––––––––––––––––– -->
         <div id="objetos">
             <div class="linha">
                 <div class="seis colunas">
@@ -197,25 +179,25 @@
 	<b>&lt;!-- .container é aonde o conteudo entra e fica centralizado --&gt;</b>
 	&lt;div class="container"&gt;
 	&lt;!-- coluna é o filho de .linha --&gt;
-	&lt;div class="linha"&gt;
-	  &lt;div class="uma coluna"&gt;Uma&lt;/div&gt;
-	  &lt;div class="onze colunas"&gt;Onze&lt;/div&gt;
+	&nbsp;&lt;div class="linha"&gt;
+	  &nbsp;&nbsp;&lt;div class="uma coluna"&gt;Uma&lt;/div&gt;
+	  &nbsp;&nbsp;&lt;div class="onze colunas"&gt;Onze&lt;/div&gt;
 	&lt;/div&gt;
 
 	<b> &lt;!-- use apenas um número + coluna ou colunas --&gt;</b>
 	&lt;div class="linha"&gt;
-	  &lt;div class="duas colunas"&gt;Two&lt;/div&gt;
-	  &lt;div class="dez colunas"&gt;Ten&lt;/div&gt;
+	  &nbsp;&nbsp;&lt;div class="duas colunas"&gt;Two&lt;/div&gt;
+	  &nbsp;&nbsp;&lt;div class="dez colunas"&gt;Ten&lt;/div&gt;
 	&lt;/div&gt;
 
 	<b>&lt;!-- Outras larguras abreviadas --&gt;</b>
 	&lt;div class="linha"&gt;
-	  &lt;div class="um-terco coluna"&gt;1/3&lt;/div&gt;
-	  &lt;div class="dois-terco coluna"&gt;2/3&lt;/div&gt;
+	  &nbsp;&nbsp;&lt;div class="um-terco coluna"&gt;1/3&lt;/div&gt;
+	  &nbsp;&nbsp;&lt;div class="dois-terco coluna"&gt;2/3&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;div class="linha"&gt;
-	  &lt;div class="metade coluna"&gt;1/2&lt;/div&gt;
-	  &lt;div class="metade coluna"&gt;1/2&lt;/div&gt;
+	  &nbsp;&nbsp;&lt;div class="metade coluna"&gt;1/2&lt;/div&gt;
+	  &nbsp;&nbsp;&lt;div class="metade coluna"&gt;1/2&lt;/div&gt;
 	&lt;/div&gt;
 
 	</code>
@@ -344,7 +326,7 @@
 padding: 20px;" class="quatro colunas">
 
                     &lt;ul&gt;<br> &lt;li&gt;Item 1&lt;/li&gt;<br> &lt;li&gt;
-                    <br> Item 2<br> &l;tul&gt;
+                    <br> Item 2<br> &lt;ul&gt;
                     <br> &lt;li>Item 2.1&lt;/li&gt;<br> &lt;li>Item 2.2&lt;/li&gt;<br> &lt;/ul&gt;
                     <br> &lt;/li&gt;
                     <br> &lt;li>Item 3&lt;/li&gt;<br> &lt;/ul&gt;
@@ -469,13 +451,11 @@ padding: 20px;" class="quatro colunas">
 </pre>
 
 
-    </div>
+</div>
 
-<footer >
-<p>Desenvolvido com <i class="fa fa-heart" aria-hidden="true"></i>
-    por <a href="http://goodesign.com.br" target="_blank">goodesign.com.br</a></p>
+<footer>
+    <p>Desenvolvido com <i class="fa fa-heart" aria-hidden="true"></i> por <a href="http://goodesign.com.br" target="_blank">goodesign.com.br</a></p>
 </footer>
 
 </body>
-
 </html>
