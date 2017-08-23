@@ -31,11 +31,13 @@
     <!-- JS links -->
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
-        <!-- Nice scroll -->    
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script>$(function(){nice=$("html").niceScroll()});var obj=window;console.log(obj.length);console.log("selector" in obj);</script>
-        <!-- Meu js -->
+    <script src="js/masonry.js"></script>
     <script src="js/meusjs.js"></script>
+
+        <!-- scripts functions -->
+   <script>$(function(){nice=$("html").niceScroll()});var obj=window;console.log(obj.length);console.log("selector" in obj);</script>
+
+        
  </head>
 
 <body>
@@ -449,13 +451,59 @@ padding: 20px;" class="quatro colunas">
 &lt;/form>
     </code>
 </pre>
+     <!-- Galeria  ––––––––––––––––––––––––––––––––––––– -->
+        <div id="galeria" class="sessoes" >
+            <h6 class="titulos">Galeria</h6>
+                <div class="linha">
+                    <div class="doze colunas">
+                        <div class="grid">
+                            <div class="grid-sizer"></div>
+                            <div class="grid-item">
+                                <img src="img/galeria/galeria_01.jpg" />
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/galeria/galeria_02.jpg" />
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/galeria/galeria_03.jpg" />
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/galeria/galeria_04.jpg" />
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/galeria/galeria_05.jpg" />
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/galeria/galeria_06.jpg" />
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/galeria/galeria_07.jpg" />
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/galeria/galeria_08.jpg" />
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/galeria/galeria_09.jpg" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        
+
 
 
 </div>
 
+
+
 <footer>
     <p>Desenvolvido com <i class="fa fa-heart" aria-hidden="true"></i> por <a href="http://goodesign.com.br" target="_blank">goodesign.com.br</a></p>
 </footer>
-
+<script>var $grid=$(".grid").imagesLoaded(function(){$grid.masonry({itemSelector:".grid-item",percentPosition:!0,columnWidth:".grid-sizer"})});</script>
 </body>
 </html>
