@@ -34,6 +34,10 @@ adicionar
     display:non /* desabilitar depos*/
 }
 
+#introducao img {
+    max-width: 450px;
+    width: 100%;
+}
 .framework {
     color: #000;
     font-size: 1.4rem;
@@ -223,7 +227,7 @@ border-color: transparent transparent #e1e1e1 transparent;}
 
 .code-example {
     margin-bottom: 0;
-    margin-top: -15px;
+    margin-top: 0;
 }
 
 .code-example-body {
