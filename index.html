@@ -20,7 +20,7 @@
     <link rel="apple-touch-icon" href="img/favicon_apple.png" />
     <!-- CSS link -->
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/font-awesome/css/animate.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/goodesign.css">
     <link rel="stylesheet" href="css/customizacao.css">
@@ -36,8 +36,7 @@
 
         <!-- scripts functions -->
    <script>$(function(){nice=$("html").niceScroll()});var obj=window;console.log(obj.length);console.log("selector" in obj);</script>
-
-        
+  
  </head>
 
 <body>
@@ -50,13 +49,14 @@
                         <li class="menu_principal"><a href="#">Códigos</a>
                             <ul class="sub-menu">
                                 <li><a href="#grade">Grade</a></li>
-                                <li><a href="#grade">Grade</a></li>
                                 <li><a href="#tipografia">Tipografia</a></li>
                                 <li><a href="#icones">Ícones</a></li>
                                 <li><a href="#botoes">Botões</a></li>
                                 <li><a href="#listas">Listas</a></li>
                                 <li><a href="#tabelas">Tabelas</a></li>
                                 <li><a href="#formularios">Formulário</a></li>
+                                <li><a href="#galeria">Galeria</a></li>
+                                <li><a href="#slideshow">Slideshow</a></li>
                             </ul>
                         </li>
                         <li class="menu_principal"> <a href="#formularios">Ferramentas</a>
@@ -82,136 +82,131 @@
                 </nav>
             </div>
             <div class="quatro colunas">
-                <a style="float: right;" class="button" href="#">Download</a>
+                <a class="button download" href="#">Download</a>
             </div>
 
         </div>
     </header>
     
-    <!-- LOGO
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- LOGO–––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
-        <div id="introducao">
-            <img src="img/logo.svg" alt="Logo" height="133" width="500">
-            <h3 class="framework">Framework</h3>
-        </div>
+    <div id="introducao" class="sessoes">
+        <img src="img/logo.svg" alt="Logo" height="133" width="500">
+        <h3 class="framework">Framework</h3>
+    </div>
 
-     <!-- OBJETOS  ––––––––––––––––––––––––––––––––––––– -->
-        <div id="objetos">
-            <div class="linha">
-                <div class="seis colunas">
-                    <p>Framework em constante desenvolvimento, implementando o que de há de mais moderno no meio web, desenvolvido a partir de um framework simples mas bem construido -- <a href="http://getskeleton.com/" target="_blank">Skeleton</a> clique acim em download para iniciar seus projetos</p>
-                </div>
-                <div class="duas colunas objetos"><i class="fa fa-css3 fa-3x" aria-hidden="true"></i>
-                    <p>HTML</p>
-                </div>
-                <div class="duas colunas objetos"><i class="fa fa-html5 fa-3x" aria-hidden="true"></i>
-                    <p>CSS</p>
-                </div>
-                <div class="duas colunas objetos"><i class="fa fa-code fa-3x" aria-hidden="true"></i>
-                    <p>JS</p>
-                </div>
+    <!-- OBJETOS  ––––––––––––––––––––––––––––––––––––– -->
+    <div id="objetos" class="sessoes">
+        <div class="linha">
+            <div class="seis colunas">
+                <p>Framework em constante desenvolvimento, implementando o que de há de mais moderno no meio web, desenvolvido a partir de um framework simples mas bem construido -- <a href="http://getskeleton.com/" target="_blank">Skeleton</a> clique acima em download para iniciar seus projetos</p>
+            </div>
+            <div class="duas colunas objetos"><i class="fa fa-css3 fa-3x" aria-hidden="true"></i>
+                <p>HTML</p>
+            </div>
+            <div class="duas colunas objetos"><i class="fa fa-html5 fa-3x" aria-hidden="true"></i>
+                <p>CSS</p>
+            </div>
+            <div class="duas colunas objetos"><i class="fa fa-code fa-3x" aria-hidden="true"></i>
+                <p>JS</p>
             </div>
         </div>
-
-
+    </div>
         
         
 
-        <!-- Grade ––––––––––––––––––––––––––––––––––––– -->
-        <div class="sessoes" id="grade">
-            <h6 class="titulos">Grade</h6>
-            <p>A grade está subdivida em 12 colunas numa largura de 960px podendo ser alterada em <code>.container</code>, suas colunas se adaptam aos dispositivos de forma responsiva. Abaixo o codígo exemplo lhe indicará como deverá ser feito. </p>
+<!-- GRADE ––––––––––––––––––––––––––––––––––––– -->
+    <div class="sessoes" id="grade">
+        <h6 class="titulos">Grade</h6>
+        <p>A grade está subdivida em 12 colunas numa largura de 960px podendo ser alterada em <code>.container</code>, suas colunas se adaptam aos dispositivos de forma responsiva. Abaixo o codígo exemplo lhe indicará como deverá ser feito. </p>
 
-            <div class="linha">
-                <div class="uma coluna">Uma</div>
-                <div class="onze colunas">Onze</div>
-            </div>
-            <div class="linha">
-                <div class="duas colunas">Duas</div>
-                <div class="dez colunas">Dez</div>
-            </div>
-            <div class="linha">
-                <div class="tres colunas">Três</div>
-                <div class="nove colunas">Nove</div>
-            </div>
-            <div class="linha">
-                <div class="quatro colunas">Quatro</div>
-                <div class="oito colunas">Oito</div>
-            </div>
-            <div class="linha">
-                <div class="cinco colunas">Cinco</div>
-                <div class="sete colunas">Sete</div>
-            </div>
-            <div class="linha">
-                <div class="seis colunas">Seis</div>
-                <div class="seis colunas">Seis</div>
-            </div>
-            <div class="linha">
-                <div class="sete colunas">Sete</div>
-                <div class="cinco colunas">Cinco</div>
-            </div>
-            <div class="linha">
-                <div class="oito colunas">Oito</div>
-                <div class="quatro colunas">Quatro</div>
-            </div>
-            <div class="linha">
-                <div class="nove colunas">Nove</div>
-                <div class="tres colunas">Três</div>
-            </div>
-            <div class="linha">
-                <div class="dez colunas">Dez</div>
-                <div class="duas colunas">Duas</div>
-            </div>
-            <div class="linha">
-                <div class="onze colunas">Onze</div>
-                <div class="uma coluna">Uma</div>
-            </div>
-            <div class="linha">
-                <div class="doze colunas">Doze</div>
-            </div>
-            <div class="linha">
-                <div class="metade coluna">Metade</div>
-                <div class="metade coluna">Metade</div>
-            </div>
-            <!-- Grade codigo–––––––––––––––––––––––––––––– -->
-
-            <pre class="code-example">
-	<code class="codigo-example-body prettyprint">
-	<b>&lt;!-- .container é aonde o conteudo entra e fica centralizado --&gt;</b>
-	&lt;div class="container"&gt;
-	&lt;!-- coluna é o filho de .linha --&gt;
-	&nbsp;&lt;div class="linha"&gt;
-	  &nbsp;&nbsp;&lt;div class="uma coluna"&gt;Uma&lt;/div&gt;
-	  &nbsp;&nbsp;&lt;div class="onze colunas"&gt;Onze&lt;/div&gt;
-	&lt;/div&gt;
-
-	<b> &lt;!-- use apenas um número + coluna ou colunas --&gt;</b>
-	&lt;div class="linha"&gt;
-	  &nbsp;&nbsp;&lt;div class="duas colunas"&gt;Two&lt;/div&gt;
-	  &nbsp;&nbsp;&lt;div class="dez colunas"&gt;Ten&lt;/div&gt;
-	&lt;/div&gt;
-
-	<b>&lt;!-- Outras larguras abreviadas --&gt;</b>
-	&lt;div class="linha"&gt;
-	  &nbsp;&nbsp;&lt;div class="um-terco coluna"&gt;1/3&lt;/div&gt;
-	  &nbsp;&nbsp;&lt;div class="dois-terco coluna"&gt;2/3&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class="linha"&gt;
-	  &nbsp;&nbsp;&lt;div class="metade coluna"&gt;1/2&lt;/div&gt;
-	  &nbsp;&nbsp;&lt;div class="metade coluna"&gt;1/2&lt;/div&gt;
-	&lt;/div&gt;
-
-	</code>
-</pre>
+        <div class="linha">
+            <div class="uma coluna">Uma</div>
+            <div class="onze colunas">Onze</div>
         </div>
-        <!-- Tipografia––––––––––––––––––––– -->
-        <div class="sessoes" id="tipografia">
-            <h6 class="titulos">Tipografia</h6>
-            <p>O fonte está definida como <code>rems</code>, então os tamanhos de fonte e as relações espaciais podem ser dimensionados de forma adequada com base em uma única propriedade de tamanho de fonte <code>&lt;html&gt;</code>. O framework nunca altera o tamanho da fonte <code>&lt;html&gt;</code>, mas está lá se precisar do seu projeto. Todas as medidas ainda são base 10, portanto, uma fonte <code>&lt;h1&gt;</code> com <code>5.0rem</code> font-size é igual a <code>50px.</code></p>
-
+        <div class="linha">
+            <div class="duas colunas">Duas</div>
+            <div class="dez colunas">Dez</div>
         </div>
-        <div style="margin-bottom:40px" class="linha">
+        <div class="linha">
+            <div class="tres colunas">Três</div>
+            <div class="nove colunas">Nove</div>
+        </div>
+        <div class="linha">
+            <div class="quatro colunas">Quatro</div>
+            <div class="oito colunas">Oito</div>
+        </div>
+        <div class="linha">
+            <div class="cinco colunas">Cinco</div>
+            <div class="sete colunas">Sete</div>
+        </div>
+        <div class="linha">
+            <div class="seis colunas">Seis</div>
+            <div class="seis colunas">Seis</div>
+        </div>
+        <div class="linha">
+            <div class="sete colunas">Sete</div>
+            <div class="cinco colunas">Cinco</div>
+        </div>
+        <div class="linha">
+            <div class="oito colunas">Oito</div>
+            <div class="quatro colunas">Quatro</div>
+        </div>
+        <div class="linha">
+            <div class="nove colunas">Nove</div>
+            <div class="tres colunas">Três</div>
+        </div>
+        <div class="linha">
+            <div class="dez colunas">Dez</div>
+            <div class="duas colunas">Duas</div>
+        </div>
+        <div class="linha">
+            <div class="onze colunas">Onze</div>
+            <div class="uma coluna">Uma</div>
+        </div>
+        <div class="linha">
+            <div class="doze colunas">Doze</div>
+        </div>
+        <div class="linha">
+            <div class="metade coluna">Metade</div>
+            <div class="metade coluna">Metade</div>
+        </div>
+            
+
+        <pre class="code-example"><code class="codigo-example-body prettyprint">
+            <b>&lt;!-- .container é aonde o conteudo entra e fica centralizado --&gt;</b>
+            &lt;div class="container"&gt;
+            &lt;!-- coluna é o filho de .linha --&gt;
+            &nbsp;&lt;div class="linha"&gt;
+              &nbsp;&nbsp;&lt;div class="uma coluna"&gt;Uma&lt;/div&gt;
+              &nbsp;&nbsp;&lt;div class="onze colunas"&gt;Onze&lt;/div&gt;
+            &lt;/div&gt;
+
+            <b> &lt;!-- use apenas um número + coluna ou colunas --&gt;</b>
+            &lt;div class="linha"&gt;
+              &nbsp;&nbsp;&lt;div class="duas colunas"&gt;Two&lt;/div&gt;
+              &nbsp;&nbsp;&lt;div class="dez colunas"&gt;Ten&lt;/div&gt;
+            &lt;/div&gt;
+
+            <b>&lt;!-- Outras larguras abreviadas --&gt;</b>
+            &lt;div class="linha"&gt;
+              &nbsp;&nbsp;&lt;div class="um-terco coluna"&gt;1/3&lt;/div&gt;
+              &nbsp;&nbsp;&lt;div class="dois-terco coluna"&gt;2/3&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="linha"&gt;
+              &nbsp;&nbsp;&lt;div class="metade coluna"&gt;1/2&lt;/div&gt;
+              &nbsp;&nbsp;&lt;div class="metade coluna"&gt;1/2&lt;/div&gt;
+            &lt;/div&gt;
+            </code></pre>
+    </div>
+        
+<!-- TIPOGRAFIA ––––––––––––––––––––– -->
+    <div class="sessoes" id="tipografia">
+        <h6 class="titulos">Tipografia</h6>
+        <p>O fonte está definida como <code>rems</code>, então os tamanhos de fonte e as relações espaciais podem ser dimensionados de forma adequada com base em uma única propriedade de tamanho de fonte <code>&lt;html&gt;</code>. O framework nunca altera o tamanho da fonte <code>&lt;html&gt;</code>, mas está lá se precisar do seu projeto. Todas as medidas ainda são base 10, portanto, uma fonte <code>&lt;h1&gt;</code> com <code>5.0rem</code> font-size é igual a <code>50px.</code></p>
+
+
+        <div class="linha">
             <div class="metade coluna">
                 <h1>Fonte H1 <span class="font_dica">50px = 5rem</span></h1>
                 <h2>Fonte H2 <span class="font_dica">42px = 4.2rem</span></h2>
@@ -224,286 +219,329 @@
             <div class="metade coluna">
                 <p>A fonte escolhida foi <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">'Open Sans', sans-serif</a> devido sua legibilidade e seu tempo de carregamento, essa foi adicionada a partir do Google Fonts e pode ser alterada a qualquer momento no css </p>
                 <p><b>Tipos:</b> </p>
-                <pre class="code-example-tipo">
-<code class="codigo-example-body prettyprint"><strong>Negrito <span class="font_dica">&lt;b&gt;Negrito&lt;/b&gt;</span></strong>
-<em>Itálico <span class="font_dica">&lt;em&gt;Itálico&lt;/em&gt;</span></em>
-<a>Colorido <span class="font_dica">&lt;a&gt;Colorido&lt;/a&gt;</span></a>
-<u>Sublinhado <span class="font_dica">&lt;u&gt;Sublinhado&lt;/u&gt;</span></u>
-                </code>
-				</pre>
+                <pre class="code-example">
+    <code class="codigo-example-body prettyprint"><strong>Negrito <span class="font_dica">&lt;b&gt;Negrito&lt;/b&gt;</span></strong>
+    <em>Itálico <span class="font_dica">&lt;em&gt;Itálico&lt;/em&gt;</span></em>
+    <a>Colorido <span class="font_dica">&lt;a&gt;Colorido&lt;/a&gt;</span></a>
+    <u>Sublinhado <span class="font_dica">&lt;u&gt;Sublinhado&lt;/u&gt;</span></u>
+                    </code>
+                    </pre>
             </div>
 
         </div>
-
-        <!-- Icons––––––––––––––––––––– -->
-        <div class="sessoes" id="icones">
-            <h6 class="titulos">Ícones</h6>
-            <i class="fa fa-heart fa-lg"></i><i class="fa fa-eye fa-lg"></i><i class="fa fa-smile-o fa-lg"></i><i class="fa fa-bomb fa-lg"></i><i class="fa fa-close fa-lg"></i><i class="fa fa-envelope-open-o fa-lg"></i><i class="fa fa-snowflake-o fa-lg"></i><i class="fa fa-telegram fa-lg"></i><i class="fa fa-times-rectangle-o fa-lg"></i><i class="fa fa-user-o fa-lg"></i><i class="fa fa-adjust fa-lg"></i><i class="fa fa-ban fa-lg"></i><i class="fa fa-barcode fa-lg"></i><i class="fa fa-battery fa-lg"></i><i class="fa fa-bed fa-lg"></i><i class="fa fa-beer fa-lg"></i><i class="fa fa-bell fa-lg"></i><i class="fa fa-bicycle fa-lg"></i><i class="fa fa-birthday-cake fa-lg"></i><i class="fa fa-bluetooth fa-lg"></i><i class="fa fa-bolt fa-lg"></i><i class="fa fa-book fa-lg"></i><i class="fa fa-briefcase fa-lg"></i><i class="fa fa-bus fa-lg"></i><i class="fa fa-calculator fa-lg"></i><i class="fa fa-calendar fa-lg"></i><i class="fa fa-camera-retro fa-lg"></i><i class="fa fa-facebook fa-lg"></i><i class="fa fa-check fa-lg"></i><i class="fa fa-twitter fa-lg"></i><i class="fa fa-circle fa-lg"></i><i class="fa fa-clock-o fa-lg"></i><i class="fa fa-cloud fa-lg"></i><i class="fa fa-coffee fa-lg"></i><i class="fa fa-whatsapp fa-lg"></i><i class="fa fa-credit-card fa-lg"></i><i class="fa fa-cutlery fa-lg"></i><i class="fa fa-desktop fa-lg"></i>
-            <div class="linha">
-                <div class="quatro colunas">
-                    <pre class="code-example-tipo"><code class="codigo-example-body prettyprint">
-            Substitua a palavra em negrito:
-
-            <code>&lt;i class="fa fa-<b>shield</b> fa-lg"&gt;</code>
-
-            Lista completa <a href="http://fontawesome.io/icons/" target="_blank">aqui!</a> 
-                            </code>
-                            </pre>
-                </div><div class="quatro colunas">
+    </div>
+<!-- ICONES––––––––––––––––––––– -->
+    <div class="sessoes" id="icones">
+        <h6 class="titulos">Ícones</h6>
+        <i class="fa fa-heart fa-lg"></i><i class="fa fa-eye fa-lg"></i><i class="fa fa-smile-o fa-lg"></i><i class="fa fa-bomb fa-lg"></i><i class="fa fa-close fa-lg"></i><i class="fa fa-envelope-open-o fa-lg"></i><i class="fa fa-snowflake-o fa-lg"></i><i class="fa fa-telegram fa-lg"></i><i class="fa fa-times-rectangle-o fa-lg"></i><i class="fa fa-user-o fa-lg"></i><i class="fa fa-adjust fa-lg"></i><i class="fa fa-ban fa-lg"></i><i class="fa fa-barcode fa-lg"></i><i class="fa fa-battery fa-lg"></i><i class="fa fa-bed fa-lg"></i><i class="fa fa-beer fa-lg"></i><i class="fa fa-bell fa-lg"></i><i class="fa fa-bicycle fa-lg"></i><i class="fa fa-birthday-cake fa-lg"></i><i class="fa fa-bluetooth fa-lg"></i><i class="fa fa-bolt fa-lg"></i><i class="fa fa-book fa-lg"></i><i class="fa fa-briefcase fa-lg"></i><i class="fa fa-bus fa-lg"></i><i class="fa fa-calculator fa-lg"></i><i class="fa fa-calendar fa-lg"></i><i class="fa fa-camera-retro fa-lg"></i><i class="fa fa-facebook fa-lg"></i><i class="fa fa-check fa-lg"></i><i class="fa fa-twitter fa-lg"></i><i class="fa fa-circle fa-lg"></i><i class="fa fa-clock-o fa-lg"></i><i class="fa fa-cloud fa-lg"></i><i class="fa fa-coffee fa-lg"></i><i class="fa fa-whatsapp fa-lg"></i><i class="fa fa-credit-card fa-lg"></i><i class="fa fa-cutlery fa-lg"></i><i class="fa fa-desktop fa-lg"></i>
+        <div class="linha">
+            <div class="quatro colunas">
                 <pre class="code-example-tipo"><code class="codigo-example-body prettyprint">
-            Para alterar tamanhos:
-            
-             <code>&lt;i class="fa fa-shield <b>fa-lg</b>"&gt;</code>
-             
-             Substitua <b>fa-lg</b> por:fa-2x, fa-3x, fa-4x, fa-4x, fa-5x</code>
-                            </pre>
-                </div>
-                <div class="quatro colunas">
-                    <pre class="code-example-tipo"><code class="codigo-example-body prettyprint">
-                    Para adicionar ícones foi utilizado <a href="http://fontawesome.io/" target="_blank">Fontawesome</a> lá você encontra outras opções de customizações e uma documentação mais completa!</code>
-                            </pre>
-                </div>
+                Substitua a palavra em negrito:
+
+                <code>&lt;i class="fa fa-<b>shield</b> fa-lg"&gt;</code>
+
+                Lista completa <a href="http://fontawesome.io/icons/" target="_blank">aqui!</a> 
+                                </code>
+                                </pre>
             </div>
+            <div class="quatro colunas">
+                <pre class="code-example-tipo"><code class="codigo-example-body prettyprint">
+                Para alterar tamanhos:
 
+                 <code>&lt;i class="fa fa-shield <b>fa-lg</b>"&gt;</code>
 
-
-
+                 Substitua <b>fa-lg</b> por:fa-2x, fa-3x, fa-4x, fa-4x, fa-5x</code>
+                                </pre>
+            </div>
+            <div class="quatro colunas">
+                <pre class="code-example-tipo"><code class="codigo-example-body prettyprint">
+                        Para adicionar ícones foi utilizado <a href="http://fontawesome.io/" target="_blank">Fontawesome</a> lá você encontra outras opções de customizações e uma documentação mais completa!</code>
+                                </pre>
+            </div>
         </div>
 
-        <!-- Botoes––––––––––––––––––––– -->
 
-        <div class="sessoes" id="botoes">
-            <h6 class="titulos">Botões</h6>
-            <a class="button" href="#">Link</a> <button>Botão</button> <input value="botão enviar" type="submit"> <input value="Botão input" type="button"><br>
-            <a class="button button-primary" href="#">Link</a> <button class="button-primary">Botão</button> <input class="button-primary" value="botão enviar" type="submit"> <input class="button-primary" value="Botão input" type="button">
-        </div>
-        <pre style="margin-bottom:40px" class="code-example">
-	<code class="codigo-example-body prettyprint">
-    
-<b>&lt;!-- Standard buttons --&gt;</b>
-&lt;a class="button" href="#">Anchor button&lt;/a&gt;
-&lt;button>Button element&lt;/button&gt;
-&lt;input value="submit input" type="submit"&gt;
-&lt;input value="button input" type="button"&gt;
 
-<b>&lt;!-- Primary buttons --&gt;</b>b>
-&lt;a class="button button-primary" href="#">Anchor button</a>
-&lt;button class="button-primary">Button element</button>
-&lt;input class="button-primary" value="submit input" type="submit">
-&lt;input class="button-primary" value="button input" type="button">
-	
-        </code>
-</pre>
-        <!-- Listas––––––––––––––––––––– -->
-        <div class="sessoes" id="listas">
-            <h6 class="titulos">Listas</h6>
-            <div class="linha">
-                <div class="quatro colunas">
+
+    </div>
+        
+<!-- BOTOES––––––––––––––––––––– -->
+
+    <div class="sessoes" id="botoes">
+        <h6 class="titulos">Botões</h6>
+        <a class="button" href="#">Link</a> <button>Botão</button> <input value="botão enviar" type="submit"> <input value="Botão input" type="button"><br>
+        <a class="button button-primary" href="#">Link</a> <button class="button-primary">Botão</button> <input class="button-primary" value="botão enviar" type="submit"> <input class="button-primary" value="Botão input" type="button">
+
+        <pre class="code-example">
+        <code class="codigo-example-body prettyprint">
+
+    <b>&lt;!-- Standard buttons --&gt;</b>
+    &lt;a class="button" href="#">Anchor button&lt;/a&gt;
+    &lt;button>Button element&lt;/button&gt;
+    &lt;input value="submit input" type="submit"&gt;
+    &lt;input value="button input" type="button"&gt;
+
+    <b>&lt;!-- Primary buttons --&gt;</b>b>
+    &lt;a class="button button-primary" href="#">Anchor button</a>
+    &lt;button class="button-primary">Button element</button>
+    &lt;input class="button-primary" value="submit input" type="submit">
+    &lt;input class="button-primary" value="button input" type="button">
+
+            </code>
+    </pre>
+    </div>
+
+<!-- LISTAS––––––––––––––––––––– -->
+    <div class="sessoes" id="listas">
+    <h6 class="titulos">Listas</h6>
+    <div class="linha">
+        <div class="quatro colunas">
+            <ul>
+                <li>Item 1</li>
+                <li>
+                    Item 2
                     <ul>
-                        <li>Item 1</li>
-                        <li>
-                            Item 2
-                            <ul>
-                                <li>Item 2.1</li>
-                                <li>Item 2.2</li>
-                            </ul>
-                        </li>
-                        <li>Item 3</li>
+                        <li>Item 2.1</li>
+                        <li>Item 2.2</li>
                     </ul>
-                </div>
-                <div class="quatro colunas">
-                    <ol>
-                        <li>Item 1</li>
-                        <li>
-                            Item 2
-                            <ul>
-                                <li>Item 2.1</li>
-                                <li>Item 2.2</li>
-                            </ul>
-                        </li>
-                        <li>Item 3</li>
-                    </ol>
-                </div>
-                <div style="border: 1px solid rgba(0, 0, 0, 0.14);
-padding: 20px;" class="quatro colunas">
-
+                </li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+        <div class="quatro colunas">
+            <ol>
+                <li>Item 1</li>
+                <li>
+                    Item 2
+                    <ul>
+                        <li>Item 2.1</li>
+                        <li>Item 2.2</li>
+                    </ul>
+                </li>
+                <li>Item 3</li>
+            </ol>
+        </div>
+        <div class="quatro colunas"><pre class="code-example"><code class="codigo-example-body prettyprint">
                     &lt;ul&gt;<br> &lt;li&gt;Item 1&lt;/li&gt;<br> &lt;li&gt;
                     <br> Item 2<br> &lt;ul&gt;
                     <br> &lt;li>Item 2.1&lt;/li&gt;<br> &lt;li>Item 2.2&lt;/li&gt;<br> &lt;/ul&gt;
                     <br> &lt;/li&gt;
                     <br> &lt;li>Item 3&lt;/li&gt;<br> &lt;/ul&gt;
+               </code>
+            </pre>
+
+        </div>
+        Substitua <code>&lt;ul&gt;</code> por <code>&lt;ol&gt;</code> para adicionar numeração
+    </div>
 
 
+    </div>
+
+<!-- TABELAS––––––––––––––––––––– -->
+    <div class="sessoes" id="tabelas">
+        <h6 class="titulos">Tabelas</h6>
+        <table class="u-full-width ">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Sexo</th>
+                    <th>Local</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Oscar Neto</td>
+                    <td>36</td>
+                    <td>Masculino</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Vanessa Mota</td>
+                    <td>30</td>
+                    <td>Feminino</td>
+                    <td>Carapicuíba</td>
+                </tr>
+                <tr>
+                    <td>Livia</td>
+                    <td>10</td>
+                    <td>Feminino</td>
+                    <td>Carapicuíba</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <pre class="code-example"><code class="codigo-example-body prettyprint">
+    &lt;table class="u-full-width"&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;Nome&lt;/th&gt;
+          &lt;th&gt;Idade&lt;/th&gt;
+          &lt;th&gt;Sexo&lt;/th&gt;
+          &lt;th&gt;Local&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Oscar Neto&lt;/td&gt;
+          &lt;td>Masculino&lt;/td&gt;
+          &lt;td>São Paulo&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+            </code></pre>
+    </div>
+
+<!-- Formularios––––––––––––––––––––– -->
+    <div id="formularios" class="sessoes">
+        <h6 class="titulos">Formulários</h6>
+        <form>
+            <div class="row">
+                <div class="seis colunas">
+                    <label for="exampleEmailInput">Email</label>
+                    <input class="u-full-width" placeholder="email@email.com" id="exampleEmailInput" type="email">
                 </div>
-                Substitua <code>&lt;ul&gt;</code> por <code>&lt;ol&gt;</code> para adicionar numeração
+                <div class="seis colunas">
+                    <label for="exampleRecipientInput">Departamento</label>
+                    <select class="u-full-width" id="exampleRecipientInput">
+            <option value="Option 1">Administração</option>
+            <option value="Option 2">Financeiro</option>
+            <option value="Option 3">Suporte</option>
+          </select>
+                </div>
             </div>
+            <label for="exampleMessage">Mensagem</label>
+            <textarea class="u-full-width" id="exampleMessage"></textarea>
+            <label class="example-send-yourself-copy">
+        <input type="checkbox">
+        <span class="label-body">Enviar copia.</span>
+      </label>
+            <input class="button-primary" value="Enviar" type="submit">
+        </form>
 
 
-        </div>
-        <!-- Tabelas––––––––––––––––––––– -->
-        <div class="sessoes" id="tabelas">
-            <h6 class="titulos">Tabelas</h6>
-            <table class="u-full-width ">
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>Idade</th>
-                        <th>Sexo</th>
-                        <th>Local</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Oscar Neto</td>
-                        <td>36</td>
-                        <td>Masculino</td>
-                        <td>São Paulo</td>
-                    </tr>
-                    <tr>
-                        <td>Vanessa Mota</td>
-                        <td>30</td>
-                        <td>Feminino</td>
-                        <td>Carapicuíba</td>
-                    </tr>
-                    <tr>
-                        <td>Livia</td>
-                        <td>10</td>
-                        <td>Feminino</td>
-                        <td>Carapicuíba</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <pre style="margin-bottom:40px" class="code-example">
-	<code class="codigo-example-body prettyprint">
-&lt;table class="u-full-width"&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Nome&lt;/th&gt;
-      &lt;th&gt;Idade&lt;/th&gt;
-      &lt;th&gt;Sexo&lt;/th&gt;
-      &lt;th&gt;Local&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Oscar Neto&lt;/td&gt;
-      &lt;td>Masculino&lt;/td&gt;
-      &lt;td>São Paulo&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-        </code>
-</pre>
-
-        <!-- Formularios––––––––––––––––––––– -->
-        <div id="formularios" class="sessoes"  >
-            <h6 class="titulos">Formulários</h6>
-            <form>
-                <div class="row">
-                    <div class="seis colunas">
-                        <label for="exampleEmailInput">Email</label>
-                        <input class="u-full-width" placeholder="email@email.com" id="exampleEmailInput" type="email">
-                    </div>
-                    <div class="seis colunas">
-                        <label for="exampleRecipientInput">Departamento</label>
-                        <select class="u-full-width" id="exampleRecipientInput">
-        <option value="Option 1">Administração</option>
-        <option value="Option 2">Financeiro</option>
-        <option value="Option 3">Suporte</option>
-      </select>
-                    </div>
-                </div>
-                <label for="exampleMessage">Mensagem</label>
-                <textarea class="u-full-width" id="exampleMessage"></textarea>
-                <label class="example-send-yourself-copy">
-    <input type="checkbox">
-    <span class="label-body">Enviar copia.</span>
-  </label>
-                <input class="button-primary" value="Enviar" type="submit">
-            </form>
-        </div>
-
-        <pre class="code-example">
-	<code class="codigo-example-body prettyprint">
-&lt;form&gt;
-    &lt;div class="row"&gt;
-        &lt;div class="seis colunas"&gt;
-            &lt;label for="exampleEmailInput">Email&lt;/label&gt;
-            &lt;input class="u-full-width" placeholder="email@email.com" id="exampleEmailInput" type="email">
+        <pre class="code-example"><code class="codigo-example-body prettyprint">
+    &lt;form&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="seis colunas"&gt;
+                &lt;label for="exampleEmailInput">Email&lt;/label&gt;
+                &lt;input class="u-full-width" placeholder="email@email.com" id="exampleEmailInput" type="email">
+            &lt;/div>
+            &lt;div class="seis colunas">
+                &lt;label for="exampleRecipientInput">Departamento&lt;/label&gt;
+                &lt;select class="u-full-width" id="exampleRecipientInput"&gt;
+            &lt;option value="Option 1">Administração&lt;/option&gt;
+            &lt;option value="Option 2">Financeiro&lt;/option&gt;
+            &lt;option value="Option 3">Suporte&lt;/option&gt;
+          &lt;/select>
+            &lt;/div>
         &lt;/div>
-        &lt;div class="seis colunas">
-            &lt;label for="exampleRecipientInput">Departamento&lt;/label&gt;
-            &lt;select class="u-full-width" id="exampleRecipientInput"&gt;
-        &lt;option value="Option 1">Administração&lt;/option&gt;
-        &lt;option value="Option 2">Financeiro&lt;/option&gt;
-        &lt;option value="Option 3">Suporte&lt;/option&gt;
-      &lt;/select>
-        &lt;/div>
-    &lt;/div>
-   &lt;label for="exampleMessage">Mensagem&lt;/label&gt;
-    &lt;textarea class="u-full-width" id="exampleMessage"&gt;&lt;/textarea&gt;
-    &lt;label class="example-send-yourself-copy"&gt;
-    &lt;input type="checkbox">
-    &lt;span class="label-body">Enviar copia.&lt;/span&gt;
-  &lt;/label>
-    &lt;input class="button-primary" value="Enviar" type="submit"&gt;
-&lt;/form>
-    </code>
-</pre>
-     <!-- Galeria  ––––––––––––––––––––––––––––––––––––– -->
-        <div id="galeria" class="sessoes" >
-            <h6 class="titulos">Galeria</h6>
-                <div class="linha">
-                    <div class="doze colunas">
-                        <div class="grid">
-                            <div class="grid-sizer"></div>
-                            <div class="grid-item">
-                                <img src="img/galeria/galeria_01.jpg" />
-                            </div>
-                            <div class="grid-item">
-                                <img src="img/galeria/galeria_02.jpg" />
-                            </div>
-                            <div class="grid-item">
-                                <img src="img/galeria/galeria_03.jpg" />
-                            </div>
-                            <div class="grid-item">
-                                <img src="img/galeria/galeria_04.jpg" />
-                            </div>
-                            <div class="grid-item">
-                                <img src="img/galeria/galeria_05.jpg" />
-                            </div>
-                            <div class="grid-item">
-                                <img src="img/galeria/galeria_06.jpg" />
-                            </div>
-                            <div class="grid-item">
-                                <img src="img/galeria/galeria_07.jpg" />
-                            </div>
-                            <div class="grid-item">
-                                <img src="img/galeria/galeria_08.jpg" />
-                            </div>
-                            <div class="grid-item">
-                                <img src="img/galeria/galeria_09.jpg" />
-                            </div>
-                        </div>
-                    </div>
+       &lt;label for="exampleMessage">Mensagem&lt;/label&gt;
+        &lt;textarea class="u-full-width" id="exampleMessage"&gt;&lt;/textarea&gt;
+        &lt;label class="example-send-yourself-copy"&gt;
+        &lt;input type="checkbox">
+        &lt;span class="label-body">Enviar copia.&lt;/span&gt;
+      &lt;/label>
+        &lt;input class="button-primary" value="Enviar" type="submit"&gt;
+    &lt;/form>
+        </code></pre>
+    </div>
 
+<!-- GALERIA  ––––––––––––––––––––––––––––––––––––– -->
+    <div id="galeria" class="sessoes">
+        <h6 class="titulos">Galeria</h6>
+        <div class="linha">
+            <div class="doze colunas">
+                <div class="grid">
+                    <div class="grid-sizer"></div>
+                    <div class="grid-item">
+                        <a href="img/galeria/galeria_01.jpg" data-lightbox="galeria-max-01" data-title="Legenda"><img src="img/galeria/galeria_01.jpg" /></a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="img/galeria/galeria_02.jpg" data-lightbox="galeria-max-02" data-title="Legenda"><img src="img/galeria/galeria_02.jpg" /></a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="img/galeria/galeria_03.jpg" data-lightbox="galeria-max-03" data-title="Legenda"><img src="img/galeria/galeria_03.jpg" /></a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="img/galeria/galeria_04.jpg" data-lightbox="galeria-max-04" data-title="Legenda"><img src="img/galeria/galeria_04.jpg" /></a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="img/galeria/galeria_05.jpg" data-lightbox="galeria-max-05" data-title="Legenda"><img src="img/galeria/galeria_05.jpg" /></a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="img/galeria/galeria_06.jpg" data-lightbox="galeria-max-06" data-title="Legenda"><img src="img/galeria/galeria_06.jpg" /></a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="img/galeria/galeria_07.jpg" data-lightbox="galeria-max-07" data-title="Legenda"><img src="img/galeria/galeria_07.jpg" /></a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="img/galeria/galeria_08.jpg" data-lightbox="galeria-max-08" data-title="Legenda"><img src="img/galeria/galeria_08.jpg" /></a>
+                    </div>
 
                 </div>
-
             </div>
         </div>
+
+    </div>
+   <pre class="code-example"><code class="codigo-example-body prettyprint">
         
+&lt;div class="grid">
+&nbsp;&lt;div class="grid-sizer">&lt;/div>
+&nbsp;&nbsp;&lt;div class="grid-item">
+&nbsp;&nbsp;&lt;a href="link_da_imagem" data-lightbox="nome_da_lightbox" data-title="Legenda">&lt;img src="link_da_imagem" /></a>
+&lt;/div> 
+
+<code> data-lightbox</code> se refere ao lightbox
+<code> .grid, .grid-sizer, .grid-item</code> se refere ao mansory
+
+Documentação completa: <a href="https://masonry.desandro.com/" target="_blank">Mansory</a>,<a href="http://lokeshdhakar.com/projects/lightbox2/" target="_blank">Lightbox</a>  
+       
+        </code></pre>   
+
+<!-- Slide  ––––––––––––––––––––––––––––––––––––– -->
+    <div id="slideshow" class="sessoes">
+        <h6 class="titulos">Slideshow - Topo</h6>
+        <div class="linha">
+            <div class="doze colunas">
+                <div class="slider" id="main-slider">
+                    <div class="slider-wrapper">
+                        <img src="img/slideshow/slide01.jpg" alt="Primeiro Slide" class="slide" />
+                        <img src="img/slideshow/slide02.jpg" alt="Segundo Slide" class="slide" />
+                        <img src="img/slideshow/slide03.jpg" alt="Terceiro Slide" class="slide" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <pre class="code-example"><code class="codigo-example-body prettyprint">   
+&lt;div class="slider" id="main-slider">
+                        &nbsp;&lt;div class="slider-wrapper">
+                       &nbsp;&nbsp; &lt;img src="img/slideshow/slide01.jpg" alt="First" class="slide" />
+                       &nbsp;&nbsp; &lt;img src="img/slideshow/slide02.jpg" alt="Second" class="slide" />
+                       &nbsp;&nbsp; &lt;img src="img/slideshow/slide03.jpg" alt="Third" class="slide" />
+                    &nbsp;&lt;/div>
+                    &lt;/div>
+                    
+       Caso queira em <code>fullscreen</code> não adicione dentro de<code>.container</code>
+        </code></pre>   
+    </div>
 
 
-
-</div>
-
-
-
+</div> <!-- fim do conteiner -- conteudo -->
 <footer>
     <p>Desenvolvido com <i class="fa fa-heart" aria-hidden="true"></i> por <a href="http://goodesign.com.br" target="_blank">goodesign.com.br</a></p>
 </footer>
-<script>var $grid=$(".grid").imagesLoaded(function(){$grid.masonry({itemSelector:".grid-item",percentPosition:!0,columnWidth:".grid-sizer"})});</script>
+    <!-- Scripts no body -->
+    <script>var $grid=$(".grid").imagesLoaded(function(){$grid.masonry({itemSelector:".grid-item",percentPosition:!0,columnWidth:".grid-sizer",})});</script>
+    <script src="js/lightbox.js"></script><script src="js/slide.js"></script>
+
 </body>
 </html>
+
+
+
+
+
+
+
