@@ -4,24 +4,21 @@
 * www.goodesign.com.br/frameworkcss
 * Livre para uso com licença MIT
 * http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
+* 13/11/2017
 */
-
 
 /* Indice
 ––––––––––––––––––––––––––––––––––––––––––––––––––
+- Logo + Objetos
+- Menu
 - Titulos
 - Grade
-
-
-****
-adicionar
-****
--mansory (isotope)
--Slide show
--galleria (lightbox)
--php mailer
-*/
+- Tipografia + Icones
+- Galeria
+- Slider
+- Footer
+- Responsivo
+--------------------------------------------------- */
 
 
 /* Logo + Objetos
@@ -31,7 +28,7 @@ adicionar
 #introducao {
     text-align: center;
     padding: 100px 0 30px 0;
-    display:non /* desabilitar depos*/
+   
 }
 
 #introducao img {
@@ -44,7 +41,7 @@ adicionar
     font-weight: 100;
     margin-top: -40px;
     letter-spacing: 20px;
-    margin-left: -8%;
+    margin-left: -10%;
 }
 
 .framework {
@@ -95,7 +92,10 @@ adicionar
 #objetos .seis p{font-size: 1.2rem;
 text-align: justify;
 }
-#objetos .seis a {text-decoration-style: dotted; color:#636363}
+#objetos .seis a {
+    text-decoration-style: dotted;
+    color: #636363
+}
 
 /* Menu
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -132,7 +132,6 @@ nav ul li a {
     float: left;
 }
 
-.menu>li:hover {}
 
 .menu li:hover>.sub-menu {
     display: block;
@@ -170,20 +169,26 @@ nav ul li a {
     border-bottom: none;
 }
 
-.sub-menu::before {pointer-events: none;
+.sub-menu::before {
+    pointer-events: none;
     position: absolute;
-z-index: -1;
-content: '';
-border-style: solid;
-left: calc(50% - 10px);
-top: -10px;
-border-width: 0 10px 10px 10px;
-border-color: transparent transparent #e1e1e1 transparent;}
+    z-index: -1;
+    content: '';
+    border-style: solid;
+    left: calc(50% - 10px);
+    top: -10px;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #e1e1e1 transparent;
+}
 
-.download {float: right}
+.download {
+    float: right
+}
 
-
-
+.download i {
+    visibility: hidden;
+    width: 1px;
+}
 
 /* Titulos
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -206,7 +211,6 @@ border-color: transparent transparent #e1e1e1 transparent;}
   height: 59px; /* fixed header height*/
   margin:-10px 0 0; /* negative fixed header height */
 }
-
 
 /* Grade
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -240,9 +244,16 @@ border-color: transparent transparent #e1e1e1 transparent;}
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2rem;
     padding: 2.5rem 3rem 4rem 2.5rem;
-    -webkit-font-smoothing: antialiased;
-}
 
+}
+.info_mobile {
+    display: none;
+    color: #d17070;
+    text-align: center;
+    background-color: rgba(182, 182, 182, 0.05);
+    padding: 15px;
+    border-radius: 10px;
+}
 
 /* Tipografia + Icones
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -253,28 +264,27 @@ border-color: transparent transparent #e1e1e1 transparent;}
     letter-spacing: normal;
 }
 
-
-#tipografia a {text-decoration-style: dotted; color:#636363}
-#icones .fa {margin-right: 6px}
-#icones .linha {margin-top:30px}
-#icones a {text-decoration-style: dotted; color:#636363}
-
-/* Footer
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-footer {padding: 10px}
-
-footer p {
-    text-align: center;
-    text-align: center;
-    font-size: 12px;
-    color: #999;
+#tipografia a {
+    text-decoration-style: dotted;
+    color: #636363
 }
 
-/* galeria
+#icones .fa {
+    margin-right: 6px
+}
+
+#icones .linha {
+    margin-top: 30px
+}
+
+#icones a {
+    text-decoration-style: dotted;
+    color: #636363
+}
+
+/* Galeria
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-
-/* ---- grid ---- */
+/* ------------------------ grid ---- */
 
 .grid {
   background: #f2f1f1;
@@ -287,7 +297,7 @@ footer p {
   clear: both;
 }
 
-/* ---- .grid-item ---- */
+/* ------------------ grid-item ---- */
 
 .grid-sizer,
 .grid-item {
@@ -327,32 +337,72 @@ footer p {
 	opacity: 1;
 }
 
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {padding: 10px}
 
+footer p {
+    text-align: center;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* RESPONSIVO
+/* -----------------------------------------------
+RESPONSIVO
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* -- Galeria -- */
-@media (max-width: 550px) {.grid-sizer,
-.grid-item {
-  width: 100%;
-}}
+
+@media (max-width: 549px) {
+    .grid-sizer,
+    .grid-item {
+        width: 100%;
+    }
+
+    /* -- Menu */
+    .download span {
+        display: none
+    }
+    .download i {
+        visibility: visible;
+        width: 11.2px
+    }
+
+    /* -- Coluna icones */
+    #icones .quatro.colunas {
+        width: 100%;
+        margin-left: 0%
+    }
+    #download {
+        width: 20%;
+    }
+    #menu {
+        width: 80%;
+    }
+    .menu_principal {
+        padding: 2px 20px 15px 0;
+    }
+    .menu_principal a {
+        font-size: 1.1rem;
+    }
+
+    #objetos .duas {
+        width: 33.3333333%
+    }
+    .info_mobile {
+        display: block
+    }
+    
+    .framework {
+    font-size: 1.2rem;
+    margin-top: -45px;
+    letter-spacing: 10px;
+    margin-left: -10%;
+}
+}
+
+@media (max-width: 767px) {
+    .menu_principal {
+        padding: 2px 20px 15px 0;
+    }
+}
