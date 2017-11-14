@@ -3,8 +3,8 @@
 - [Bracket](http://brackets.io/)
 - [Browser](https://www.mozilla.org/pt-BR/firefox/new/)
 * Conhecimento em html5
-*Conhecimentos em css
-*Basico em javascript
+* Conhecimentos em css
+* Basico em javascript
 
 ## Estrutura de arquivos 
 
