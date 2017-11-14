@@ -35,8 +35,14 @@ Desenvolvi esse framework tanto com a intenção de aprimorar meus conhecimentos
 -index.htm<br>
 -index.html<br>
 
-### Download
+### Informações de como utilizar
+
+[Acesse](http://ferramentas.goodesign.com.br/framework/)
+
+### Contribuição
 ```shell
-Clique download zip 
+Caso queira contribuir de alguma forma, criticando, corrigindo ou dando sugestão fique a vontade sou muito aberto em relação a isso e ficarei agradecido
 ```
+
+
 
