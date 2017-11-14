@@ -41,7 +41,7 @@ Desenvolvi esse framework tanto com a intenção de aprimorar meus conhecimentos
 
 ### Contribuição
 ```shell
-Caso queira contribuir de alguma forma, criticando, corrigindo ou dando sugestão fique a vontade sou muito aberto em relação a isso e ficarei agradecido
+Caso queira contribuir de alguma forma, criticando, corrigindo ou dando <br />sugestão fique a vontade sou muito aberto em relação a isso e ficarei agradecido
 ```
 
 
