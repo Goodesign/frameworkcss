@@ -1,14 +1,14 @@
 # Framework CSS
 ### Requerimentos 
-```shell
+
 * Editor HTML
 * Browser Atualizado
 * Conhecimento em html5
 * Conhecimentos em css
 * Basico em javascript
-```
-## Estrutura de arquivos 
 
+## Estrutura de arquivos 
+```shell
 │--- CSS<br>
 ││-- fontsawesome<br>
 │- normalize.css<br>
@@ -32,3 +32,4 @@
 -favicon.ico<br>
 -index.htm<br>
 -index.html<br>
+```
