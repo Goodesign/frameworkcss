@@ -35,13 +35,15 @@ Desenvolvi esse framework tanto com a intenção de aprimorar meus conhecimentos
 -index.htm<br>
 -index.html<br>
 
-### Informações de como utilizar
+### Informações completas
 
-[Acesse](http://ferramentas.goodesign.com.br/framework/)
+[Acesse -  Aqui](http://ferramentas.goodesign.com.br/framework/)
 
 ### Contribuição
 
-_Caso queira contribuir de alguma forma, criticando, corrigindo ou dando <br />sugestão fique a vontade sou muito aberto em relação a isso e ficarei agradecido_
+_Caso queira contribuir de alguma forma, criticando, corrigindo ou dando sugestão fique a vontade sou muito aberto em relação a isso e ficarei agradecido_
+
+
 
 
 
