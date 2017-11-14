@@ -1,4 +1,4 @@
-# Framework CSS
+# Framework CSS - Goodesign
 Desenvolvi esse framework tanto com a intenção de aprimorar meus conhecimentos quanto de facilitar para que outras pessoas possasm desenvolver seus sites de forma simples e ao mesmo tempo com um design mais moderno, espero que esse framework possa contribuir de alguma forma para as pessoas que estão aprendendo como as que querem desenvolver algo
 
 ### Requerimentos 
