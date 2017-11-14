@@ -40,9 +40,8 @@ Desenvolvi esse framework tanto com a intenção de aprimorar meus conhecimentos
 [Acesse](http://ferramentas.goodesign.com.br/framework/)
 
 ### Contribuição
-```shell
-Caso queira contribuir de alguma forma, criticando, corrigindo ou dando <br />sugestão fique a vontade sou muito aberto em relação a isso e ficarei agradecido
-```
+
+_Caso queira contribuir de alguma forma, criticando, corrigindo ou dando <br />sugestão fique a vontade sou muito aberto em relação a isso e ficarei agradecido_
 
 
 
