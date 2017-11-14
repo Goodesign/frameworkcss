@@ -9,7 +9,7 @@ Desenvolvi esse framework tanto com a intenção de aprimorar meus conhecimentos
 * Conhecimentos em css
 * Basico em javascript
 
-## Estrutura de arquivos 
+### Estrutura de arquivos 
 
 │--- CSS<br>
 ││-- fontsawesome<br>
@@ -37,6 +37,6 @@ Desenvolvi esse framework tanto com a intenção de aprimorar meus conhecimentos
 
 ### Download
 ```shell
-https://github.com/Goodesign/frameworkcss/archive/master.zip
+Clique download zip 
 ```
 
