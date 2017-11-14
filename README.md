@@ -1,4 +1,6 @@
 # Framework CSS
+Desenvolvi esse framework tanto com a intenção de aprimorar meus conhecimentos quanto de facilitar para que outras pessoas possasm desenvolver seus sites de forma simples e ao mesmo tempo com um design mais moderno, espero que esse framework possa contribuir de alguma forma para as pessoas que estão aprendendo como as que querem desenvolver algo
+
 ### Requerimentos 
 
 * Editor HTML
@@ -8,7 +10,7 @@
 * Basico em javascript
 
 ## Estrutura de arquivos 
-```shell
+
 │--- CSS<br>
 ││-- fontsawesome<br>
 │- normalize.css<br>
@@ -32,4 +34,9 @@
 -favicon.ico<br>
 -index.htm<br>
 -index.html<br>
+
+### Download
+```shell
+https://github.com/Goodesign/frameworkcss/archive/master.zip
 ```
+
